@@ -29,6 +29,19 @@
 # Nested build directory
 /build*
 
+# Build artifacts and logs
+*.log
+*_log.txt
+build_log.txt
+link_log.txt
+*.obj
+*.exp
+*.lib
+*.dll
+ArkariRegistration.exp
+ArkariRegistration.lib
+ArkariRegistration.obj
+
 #==============================================================================#
 # Explicit files to ignore (only matches one).
 #==============================================================================#
